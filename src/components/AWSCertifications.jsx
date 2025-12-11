@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaAws, FaArrowRight, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
-// Import your images from src/assets
+// Import images from assets folder
 import advancedImg from '../assets/advanced.webp';
 import selectTierImg from '../assets/aws_select_tier_services.webp';
 import systemManagerImg from '../assets/systemmanager.webp';
@@ -30,7 +30,7 @@ const AWSCertifications = () => {
     { id: 'specialty', label: 'Specialty', count: 1 },
   ];
 
-  // ALL certifications from your HTML (11 total)
+  // ALL certifications 
   const certifications = [
     // Partner Status (2)
     {
@@ -41,7 +41,7 @@ const AWSCertifications = () => {
       color: "text-orange-500",
       bgColor: "bg-orange-50",
       borderColor: "border-orange-200",
-      image: advancedImg, // Use imported image
+      image: advancedImg, 
       details: {
         validation: "AWS Validated Partner",
         expertise: "Enterprise Solutions",
@@ -57,7 +57,7 @@ const AWSCertifications = () => {
       color: "text-blue-500",
       bgColor: "bg-blue-50",
       borderColor: "border-blue-200",
-      image: selectTierImg, // Use imported image
+      image: selectTierImg, 
       details: {
         validation: "AWS Service Partner",
         expertise: "Specialized Services",
@@ -74,7 +74,7 @@ const AWSCertifications = () => {
       color: "text-green-500",
       bgColor: "bg-green-50",
       borderColor: "border-green-200",
-      image: systemManagerImg, // Use imported image
+      image: systemManagerImg, 
       details: {
         validation: "AWS Competency",
         expertise: "Operations Management",
@@ -90,7 +90,7 @@ const AWSCertifications = () => {
       color: "text-purple-500",
       bgColor: "bg-purple-50",
       borderColor: "border-purple-200",
-      image: cloudfrontImg, // Use imported image
+      image: cloudfrontImg, 
       details: {
         validation: "AWS Competency",
         expertise: "Content Delivery",
@@ -106,7 +106,7 @@ const AWSCertifications = () => {
       color: "text-red-500",
       bgColor: "bg-red-50",
       borderColor: "border-red-200",
-      image: wafImg, // Use imported image
+      image: wafImg, 
       details: {
         validation: "AWS Competency",
         expertise: "Web Security",
@@ -122,7 +122,7 @@ const AWSCertifications = () => {
       color: "text-indigo-500",
       bgColor: "bg-indigo-50",
       borderColor: "border-indigo-200",
-      image: rdsImg, // Use imported image
+      image: rdsImg, 
       details: {
         validation: "AWS Competency",
         expertise: "Database Management",
@@ -139,7 +139,7 @@ const AWSCertifications = () => {
       color: "text-blue-600",
       bgColor: "bg-blue-50",
       borderColor: "border-blue-200",
-      image: solutionsArchitectProImg, // Use imported image
+      image: solutionsArchitectProImg, 
       details: {
         validation: "AWS Certified",
         expertise: "Architecture Design",
@@ -156,7 +156,7 @@ const AWSCertifications = () => {
       color: "text-teal-600",
       bgColor: "bg-teal-50",
       borderColor: "border-teal-200",
-      image: solutionsArchitectAssociateImg, // Use imported image
+      image: solutionsArchitectAssociateImg, 
       details: {
         validation: "AWS Certified",
         expertise: "System Design",
@@ -172,7 +172,7 @@ const AWSCertifications = () => {
       color: "text-green-600",
       bgColor: "bg-green-50",
       borderColor: "border-green-200",
-      image: dataEngineerImg, // Use imported image
+      image: dataEngineerImg, 
       details: {
         validation: "AWS Certified",
         expertise: "Data Pipeline Design",
@@ -188,7 +188,7 @@ const AWSCertifications = () => {
       color: "text-yellow-600",
       bgColor: "bg-yellow-50",
       borderColor: "border-yellow-200",
-      image: cloudPractitionerImg, // Use imported image
+      image: cloudPractitionerImg, 
       details: {
         validation: "AWS Certified",
         expertise: "Cloud Fundamentals",
@@ -205,7 +205,7 @@ const AWSCertifications = () => {
       color: "text-purple-600",
       bgColor: "bg-purple-50",
       borderColor: "border-purple-200",
-      image: aiPractitionerImg, // Use imported image
+      image: aiPractitionerImg, 
       details: {
         validation: "AWS Certified",
         expertise: "Machine Learning",
