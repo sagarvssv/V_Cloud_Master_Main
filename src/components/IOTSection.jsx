@@ -12,7 +12,7 @@ const IOTSection = () => {
     { icon: <FaWifi />, title: "Real-time Monitoring" }
   ];
 
-  // Your YouTube video ID from the link: https://youtu.be/o4Rr_lDFWfA
+  // YouTube video ID from the link: https://youtu.be/o4Rr_lDFWfA
   const youtubeVideoId = "o4Rr_lDFWfA";
   const videoUrl = `https://www.youtube.com/embed/${youtubeVideoId}`;
 
