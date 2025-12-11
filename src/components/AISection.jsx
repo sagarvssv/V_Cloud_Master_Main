@@ -30,7 +30,7 @@ const AISection = () => {
     }
   ];
 
-  // Your YouTube video ID
+  // YouTube video ID
   const youtubeVideoId = "usFIb9aEd1U";
   const videoUrl = `https://www.youtube.com/embed/${youtubeVideoId}`;
 
